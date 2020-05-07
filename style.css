@@ -1,50 +1,110 @@
-
-body{
-  font-family: montserrat, sans-serif;
+/* --- Todo ---*/
+*{
+  box-sizing: border-box;
+  font-family: Montserrat, Lato, sans-serif;
+  margin: 0px;
 }
 
-.imagen_ppal{
-  background-image:url(barberinad-background.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 20em;
+/*--- Tipografías --*/
+.caja_main>.titulo1{
+  margin: auto;
+  padding-top: 14em;
 }
-.imagen_ppal h1{
-  color: #FFAB06;
-  font-size: 2em;
-  text-align: center;
-  padding-top: 175px;
- }
- .imagen_ppal h2{
-   color: #FFAB06;
-   font-size: 1em;
-   text-align: center;
-   padding-top: 0px;
- }
-ul li{
-  list-style: none;
+
+h1{
+  color: #F9B326;
+  font-size: 52px;
+}
+
+h2{
+  color: #F94926;
+  padding: 0px;
+}
+
+
+
+/*---Elementos---*/
+nav{
+  float: right;
+  padding-right: 15px;
+  padding-top: 2.5em;
+}
+
+ul li {
   text-decoration: none;
+  list-style: none;
+  padding-right: 12px;
+  padding-left: 12px;
   display: inline;
-  padding: 1em;
 }
 ul li:hover{
-  color: #FFAB06;
+  color: #F94926;
   cursor: pointer;
 }
-.menu{
-  float: left;
-  background-color: white;
-  height: 5em;
+
+
+/* --- CAJAS --- */
+.menu_top{
   width: 100%;
+  height: 6em;
+  background-color: white;
+}
+.caja_main{
+  background-image:url(brb-bkg-edit.png);
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  height: 35em;
 }
 
-.menu nav{
-  float: right;
+              .box_left{
+                background-color: white;
+                width: 50%;
+                height: 12.5em;
+                float: left;
+                text-align: center;
+              }
+              .mini_box_left{
+                width: 15em;
+                padding: 15px;
+                border: solid black 2px;
+                margin: auto;
+                margin-top: 2.5em;
+              }
+              .box_right{
+                background-color: white;
+                width: 50%;
+                height: 13.5em;
+                float: right;
+                text-align: center;
+              }
+              .mini_box_right{
+                width: 15em;
+                padding: 15px;
+                border: solid black 2px;
+                margin: auto;
+                margin-top: 2.5em;
+              }
+
+.caja_fotos{
+  background-color: white;
+  border: black solid 7px;
+  width: 100%;
+  height: 10em;
+  clear: both;
+}
+.caja_footer{
+  background-color: black;
+  width: 100%;
+  height: 200px;
 }
 
-
-
-
-
+/* --- comportamiento --- */
+.mini_box_left:hover{
+  background-color: #F9B326;
+  cursor: pointer;
+}
+.mini_box_right:hover{
+  background-color: #F9B326;
+  cursor: pointer;
 }
